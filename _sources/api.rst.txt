@@ -1,0 +1,24 @@
+API Reference
+=============
+
+Registering tunables
+~~~~~~~~~~~~~~~~~~~~
+
+.. autofunction:: metatune.DEFINE_integer
+
+.. autofunction:: metatune.DEFINE_log_float
+
+.. autofunction:: metatune.DEFINE_categorical
+
+
+Accessing tunables
+~~~~~~~~~~~~~~~~~~
+
+.. autodata:: metatune.METATUNE
+    :annotation:
+
+
+Running your program
+~~~~~~~~~~~~~~~~~~~~
+
+.. autofunction:: metatune.run
